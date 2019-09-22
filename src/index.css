@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 :root {
   font: 16px / 1 sans-serif;
+  font-family: 'roboto', sans-serif;
 }
 
 html {
@@ -17,6 +19,7 @@ body {
   display: flex;
   justify-content: center;
   font-size: 0.5rem;
+  font-weight: bold;
 }
 
 .navigationBar {
@@ -40,16 +43,30 @@ body {
   padding: 0.3rem;
 }
 
-.logo img {
+.logo {
+  display: flex;
   position: relative;
   width: 4rem;
-  height: 3rem;
+  border: 1px solid red;
+  padding: 1rem;
+}
+
+.logo img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url('images/bear-photo.jpg');
+  flex-direction: flex-start;
 }
 
 .phoneNumber {
   position: relative;
   top: 7rem;
   font-size: 0.5rem;
+}
+
+.phoneNumber a {
+  font-size: 0.8rem;
 }
 
 .image-container {
@@ -62,3 +79,18 @@ body {
   left: 5rem;
   bottom: 10rem;
 }
+
+.image-container img {
+  background-image: url('images/plumbing-photo-2.jpg');
+  display: flex;
+  width: 100%;
+}
+
+.description-box {
+  position: absolute;
+  border: 1px solid red;
+  bottom: 9rem;
+  /* height: 5rem; */
+}
+
+/* Media Queries */
