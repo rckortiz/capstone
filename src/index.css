@@ -87,10 +87,11 @@ body {
 }
 
 .description-box {
-  position: absolute;
+  position: relative;
   border: 1px solid red;
-  bottom: 9rem;
-  /* height: 5rem; */
+  bottom: 10rem;
+  width: 15rem;
+  left: 5rem;
 }
 
 /* Media Queries */
