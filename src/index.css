@@ -27,6 +27,20 @@ body {
   background-image: url('images/marble.jpg');
 }
 
+.header-text {
+  text-align: center;
+  /* border: 1px solid red; */
+}
+.header-text span {
+  font-style: italic;
+  font-weight: bold;
+  /* border: 1px solid red; */
+}
+.header h1 {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
 .navigationBar {
   position: relative;
   /* margin: auto; */
@@ -51,6 +65,30 @@ body {
 
 .navigationBar ul li {
   padding: 0.3rem;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 8rem;
+  font-size: 0.6rem;
+}
+
+.address span {
+  padding: 0rem;
+}
+
+.react-map {
+  position: relative;
+  top: 10rem;
+  /* left: 0.2rem; */
+  padding-right: 1rem;
+  /* left: 1rem; */
+  /* right: 1rem; */
+  /* margin-right: 3rem; */
+  align-items: center;
+  border: 1px solid black;
 }
 
 .logo {
@@ -86,30 +124,40 @@ body {
 }
 
 .image-container {
-  position: fixed;
   display: flex;
   justify-content: center;
-  /* border: 1px solid red; */
+  /* border: 1px solid red;
   width: 15rem;
   height: 9.9rem;
   left: 5rem;
-  bottom: 20.5rem;
+  bottom: 20.5rem; */
+}
+
+.header img {
+  width: 5rem;
 }
 
 .image-container img {
-  background-image: url('images/plumbing-photo-2.jpg');
+  /* background-image: url('images/plumbing-photo-2.jpg'); */
   display: flex;
   width: 100%;
   padding-left: none;
+  height: 10rem;
+  width: auto;
 }
 
 .description-box {
   display: flex;
-  position: fixed;
+  /* position: fixed; */
   /* border: 1px solid red; */
-  bottom: 9.5rem;
+  /* bottom: 9.5rem; */
   width: 15rem;
-  left: 5rem;
+  /* left: 5rem; */
+  color: white;
+}
+
+.description-box-bg {
+  background-color: rgba(9, 17, 16, 0.6);
 }
 
 .description-box p {
@@ -118,9 +166,45 @@ body {
   justify-content: center;
 }
 
-/* Media Queries */
-@media (min-width: 768px) {
+.firstFooter {
+  border: 1px solid red;
 }
 
-@media (min-width: 992px) {
+.secondFooter {
+  border: 1px solid red;
+  height: 4.2rem;
+}
+
+/* Media Queries */
+
+/* Tablet  */
+@media (min-width: 720px) {
+  .navigationBar {
+    height: 60rem;
+    width: 10rem;
+  }
+  .header {
+    height: 15rem;
+  }
+}
+/* Desktop */
+@media (min-width: 1024px) {
+  .logo {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 3rem;
+    height: 3rem;
+    right: 0.6rem;
+    /* border: 1px solid red; */
+    padding: 1rem;
+    /* background-image: url('images/bear-photo.jpg'); */
+  }
+  .logo img {
+    position: relative;
+  }
+}
+
+.body {
+  display: flex;
 }

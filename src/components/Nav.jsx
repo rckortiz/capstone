@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import ReactMap from './ReactMap'
 
 class Nav extends Component {
   render() {
@@ -22,6 +23,14 @@ class Nav extends Component {
           <div className="phoneNumber">
             <h1>Call us at: </h1>
             <a href="tel:9999999999">999-999-9999</a>
+          </div>
+          <div className="address">
+            <span>Address</span>
+            <span>351 Horseclub Ave</span>
+            <span>Clewiston, FL 33440</span>
+          </div>
+          <div className="react-map">
+            <ReactMap />
           </div>
         </nav>
       </div>
