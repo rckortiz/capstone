@@ -14,6 +14,9 @@ body {
   background-image: url('images/teal-texture.jpg');
 }
 
+main {
+}
+
 .header {
   background-color: rgba(190, 190, 190);
   display: flex;
@@ -82,8 +85,9 @@ body {
 .react-map {
   position: relative;
   top: 10rem;
+  width: 100%;
   /* left: 0.2rem; */
-  padding-right: 1rem;
+  /* padding-right: 1rem; */
   /* left: 1rem; */
   /* right: 1rem; */
   /* margin-right: 3rem; */
@@ -92,14 +96,14 @@ body {
 }
 
 .logo {
-  display: flex;
+  /* display: flex;
   align-items: center;
   position: relative;
   width: 3rem;
   height: 3rem;
-  right: 0.6rem;
+  right: 0.6rem; */
   /* border: 1px solid red; */
-  padding: 1rem;
+  /* padding: 1rem; */
   /* background-image: url('images/bear-photo.jpg'); */
 }
 
@@ -143,7 +147,7 @@ body {
   width: 100%;
   padding-left: none;
   height: 10rem;
-  width: auto;
+  /* width: auto; */
 }
 
 .description-box {
@@ -151,7 +155,7 @@ body {
   /* position: fixed; */
   /* border: 1px solid red; */
   /* bottom: 9.5rem; */
-  width: 15rem;
+  width: 100%;
   /* left: 5rem; */
   color: white;
 }
@@ -168,11 +172,15 @@ body {
 
 .firstFooter {
   border: 1px solid red;
+  background-color: rgba(9, 17, 16, 0.6);
+  color: white;
 }
 
 .secondFooter {
   border: 1px solid red;
   height: 4.2rem;
+  background-color: rgba(9, 17, 16, 0.6);
+  color: white;
 }
 
 /* Media Queries */
@@ -180,11 +188,15 @@ body {
 /* Tablet  */
 @media (min-width: 720px) {
   .navigationBar {
-    height: 60rem;
-    width: 10rem;
+    height: 40rem;
+    width: 9rem;
   }
   .header {
-    height: 15rem;
+    height: 40%;
+  }
+  .img {
+    width: 100%;
+    background-size: 100%;
   }
 }
 /* Desktop */
@@ -200,6 +212,7 @@ body {
     padding: 1rem;
     /* background-image: url('images/bear-photo.jpg'); */
   }
+
   .logo img {
     position: relative;
   }
