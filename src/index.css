@@ -95,8 +95,9 @@ body {
 /* Map */
 .react-map {
   position: relative;
-  top: 10rem;
+  top: 8rem;
   width: 100%;
+  height: 70%;
   /* left: 0.2rem; */
   /* padding-right: 1rem; */
   /* left: 1rem; */
@@ -185,6 +186,11 @@ body {
   width: 100%;
 }
 
+.about-desc {
+  background-color: rgba(9, 17, 16, 0.6);
+  color: white;
+}
+
 .header img {
   width: 5rem;
 }
@@ -228,14 +234,15 @@ img.mobile-hide {
 }
 
 .secondFooter {
+  display: flex;
   border: 1px solid red;
   height: 4.2rem;
   background-color: rgba(9, 17, 16, 0.6);
   color: white;
 }
 .secondFooter ul {
-  display: flex;
-  justify-content: space-between;
+  /* display: flex;
+  justify-content: space-between; */
   /* flex-wrap: wrap; */
 }
 
@@ -292,18 +299,18 @@ img.mobile-hide {
 
   .abt-image-container {
     position: relative;
-    /* display: flex; */
-    justify-content: center;
-    background-size: cover;
-    left: 10rem;
-    width: 2rem;
-    height: 40rem;
+    top: 0rem;
+    /* justify-content: center; */
+    /* background-size: cover; */
+    left: 0rem;
+    width: 81rem;
+    right: 3.9rem;
+    height: 30rem;
     /* height: 40rem; */
-    bottom: 40rem;
     /* bottom: 40rem; */
     /* width: 500px;
     height: 200px; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
 
   .abt-image-container img {
@@ -354,15 +361,17 @@ img.mobile-hide {
     width: 100%;
     height: 100%;
   } */
-  /* footer {
+  /* remfooter {
     position: relative;
     top: 4.5rem;
   } */
 
   .firstFooter {
     display: flex;
-    justify-content: center;
-    flex-direction: space-evenly;
+    /* justify-content: center; */
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-bottom: 4rem;
   }
 }
 

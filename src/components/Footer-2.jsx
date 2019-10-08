@@ -9,8 +9,8 @@ class Footer2 extends Component {
           <li>Plumbing</li>
           <li>Drain field installation</li>
           <li>Homepads</li>
-          <li></li>
-          <li></li>
+          <li>This</li>
+          <li>That</li>
         </ul>
       </footer>
     )

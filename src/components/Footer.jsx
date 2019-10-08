@@ -6,8 +6,15 @@ class Footer extends Component {
     return (
       <div>
         <footer className="firstFooter">
+          <img src={TwentyYears} className="left-icon" />
           <p>License Number: CFC1429952 | CGC1515812</p>
-          <img src={TwentyYears} />
+          <ul>
+            <li>plumbing</li>
+            <li>Septic</li>
+            <li>Drain Fields</li>
+            <li>Septic Repair</li>
+          </ul>
+          <img src={TwentyYears} className="right-icon" />
         </footer>
       </div>
     )
