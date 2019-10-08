@@ -29,7 +29,7 @@ class Header extends Component {
         <img src={Logo} />
         <div className="header-text">
           <h1>OSO Site Development and Septic</h1>
-          <span>Serving Southwest Florida for over 22 years</span>
+          <span>Serving Southwest Florida since 1997</span>
         </div>
       </div>
     )

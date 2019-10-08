@@ -22,16 +22,14 @@ class Nav extends Component {
           </ul>
           <div className="phoneNumber">
             <h1>Call us at: </h1>
-            <a href="tel:9999999999">999-999-9999</a>
+            <a href="tel:9999999999">863-983-2834</a>
           </div>
           <div className="address">
             <span>Address</span>
             <span>351 Horseclub Ave</span>
             <span>Clewiston, FL 33440</span>
           </div>
-          <div className="react-map">
-            <ReactMap />
-          </div>
+          <div className="react-map">{/* <ReactMap /> */}</div>
         </nav>
       </div>
     )

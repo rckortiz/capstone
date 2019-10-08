@@ -4,7 +4,14 @@ class Footer2 extends Component {
   render() {
     return (
       <footer className="secondFooter">
-        <h1>Se habla espanol</h1>
+        <span> Services we provide</span>
+        <ul>
+          <li>Plumbing</li>
+          <li>Drain field installation</li>
+          <li>Homepads</li>
+          <li></li>
+          <li></li>
+        </ul>
       </footer>
     )
   }

@@ -7,6 +7,9 @@ const ContactUs = () => {
     <div>
       <Header />
       <Nav />
+      <main className="scheduler-body">
+        <div></div>
+      </main>
     </div>
   )
 }

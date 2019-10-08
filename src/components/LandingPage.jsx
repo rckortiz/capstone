@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Logo from '../images/logo.png'
 import Faucet from '../images/plumbing-photo-2.jpg'
-import Tub from '../images/plumbing-photo.jpg'
+import Land from '../images/Land.jpg'
+import Central from '../images/central.jpg'
 import Header from './Header'
 import Nav from './Nav'
 import Footer from './Footer'
@@ -17,24 +17,29 @@ const LandingPage = () => {
           <Nav />
           <main>
             <section className="image-container">
-              <img src={Faucet}></img>
+              <img src={Faucet} alt="" />
+              <img src={Land} className="mobile-hide" alt="" />
+              <img src={Central} className="mobile-hide" alt="" />
             </section>
+
             <article className="description-box">
               <div className="description-box-bg">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi, modi architecto. Laboriosam ab, fugiat sapiente
-                  aliquid voluptates sint nulla! Repellendus blanditiis tempore
-                  nobis voluptatem deserunt perspiciatis excepturi repudiandae
-                  animi repellat!
+                  Here at OSO Development we take great pride in serving all
+                  your site development needs. We've been in the plumbing and
+                  site development industry for over 22 years and our team of
+                  experienced plumbers and land development experts are here to
+                  assist you every step of the way. There's never a job that's
+                  too big or too small. Schedule your appointment today!
                 </p>{' '}
               </div>
             </article>
           </main>
         </section>
-
-        <Footer />
-        <Footer2 />
+        <footer>
+          <Footer />
+          <Footer2 />
+        </footer>
       </div>
     </>
   )
