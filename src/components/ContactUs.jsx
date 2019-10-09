@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './Header'
 import Nav from './Nav'
+import MyForm from './MyForm'
 
 const ContactUs = () => {
   return (
@@ -8,7 +9,7 @@ const ContactUs = () => {
       <Header />
       <Nav />
       <main className="scheduler-body">
-        <div></div>
+        <MyForm />
       </main>
     </div>
   )

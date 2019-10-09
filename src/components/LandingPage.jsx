@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import Faucet from '../images/plumbing-photo-2.jpg'
 import Land from '../images/Land.jpg'
 import Central from '../images/central.jpg'
+import SkidSteer from '../images/skid-steer.jpg'
 import Header from './Header'
 import Nav from './Nav'
 import Footer from './Footer'
@@ -20,6 +21,7 @@ const LandingPage = () => {
               <img src={Faucet} alt="" />
               <img src={Land} className="mobile-hide" alt="" />
               <img src={Central} className="mobile-hide" alt="" />
+              <img src={SkidSteer} className="mobile-hide" alt="" />
             </section>
 
             <article className="description-box">
@@ -38,7 +40,7 @@ const LandingPage = () => {
         </section>
         <footer>
           <Footer />
-          <Footer2 />
+          {/* <Footer2 /> */}
         </footer>
       </div>
     </>
