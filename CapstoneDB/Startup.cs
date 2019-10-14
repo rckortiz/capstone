@@ -41,6 +41,8 @@ namespace CapstoneDB
         c.SwaggerDoc("v1", new Info { Title = "My API", Version = "v1" });
       });
 
+      services.AddDbContext<DatabaseContext>();
+
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

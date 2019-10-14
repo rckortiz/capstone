@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 
 
+
 namespace CapstoneDB.Models
 {
   public class ClientTable

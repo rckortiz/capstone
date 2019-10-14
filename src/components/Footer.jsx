@@ -7,13 +7,22 @@ class Footer extends Component {
       <div>
         <footer className="firstFooter">
           <img src={TwentyYears} className="left-icon" />
-          <p>License Number: CFC1429952 | CGC1515812</p>
-          <ul>
-            <li>plumbing</li>
-            <li>Septic</li>
-            <li>Drain Fields</li>
-            <li>Septic Repair</li>
-          </ul>
+          <span>License Number: CFC1429952 | CGC1515812</span>
+          <p>Services We Provide</p>
+          <div className="services">
+            <ul>
+              <li>Plumbing</li>
+              <li>Septic Installation</li>
+              <li>Drain Field Installation</li>
+              <li>Septic Repair</li>
+              <li>General Construction</li>
+              <li>Homepads</li>
+            </ul>
+            <ul>
+              <li>djjdjd</li>
+              <li>sldjfjd</li>
+            </ul>
+          </div>
           <img src={TwentyYears} className="right-icon" />
         </footer>
       </div>

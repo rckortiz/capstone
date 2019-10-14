@@ -1,15 +1,17 @@
 import React from 'react'
 import Header from './Header'
 import Nav from './Nav'
-import MyForm from './MyForm'
+import MyForm2 from './MyForm2'
 
 const ContactUs = () => {
   return (
     <div>
       <Header />
-      <Nav />
+      <section className="contact-body">
+        <Nav />
+      </section>
       <main className="scheduler-body">
-        <MyForm />
+        <MyForm2 />
       </main>
     </div>
   )

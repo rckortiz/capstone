@@ -29,7 +29,9 @@ class Nav extends Component {
             <span>351 Horseclub Ave</span>
             <span>Clewiston, FL 33440</span>
           </div>
-          <div className="react-map">{/* <ReactMap /> */}</div>
+          <div className="react-map">
+            <ReactMap />
+          </div>
         </nav>
       </div>
     )
