@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import ReactMapGL from 'react-map-gl'
+import Marker from 'react-map-gl'
 
 class ReactMap extends Component {
   state = {
@@ -22,6 +23,13 @@ class ReactMap extends Component {
           }
           mapStyle="mapbox://styles/rckortiz/ck19o4l3k6pat1ctdxxrd0ly1"
         />
+        <Marker
+          coordinates={[26.651114, -81.107549]}
+          anchor="top"
+          mapboxApiAccessToken={
+            'pk.eyJ1IjoicmNrb3J0aXoiLCJhIjoiY2sxOWVnaHU3MHFqODNjbjJ0YXRkbDN3YiJ9.8CQCDOpTUfLNWXb4j6lgGw'
+          }
+        ></Marker>
       </div>
     )
   }

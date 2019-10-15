@@ -22,7 +22,7 @@ class Nav extends Component {
           </ul>
           <div className="phoneNumber">
             <h1>Call us at: </h1>
-            <a href="tel:9999999999">863-983-2834</a>
+            <a href="tel:8639832834">863-983-2834</a>
           </div>
           <div className="address">
             <span>Address</span>

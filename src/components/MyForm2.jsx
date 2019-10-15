@@ -28,7 +28,7 @@ const MyForm2 = () => {
         }}
       >
         <h1>Schedule your appointment today!</h1>
-        <p>First Name</p>
+        <p>First Name:</p>
 
         <input
           type="text"
@@ -36,28 +36,28 @@ const MyForm2 = () => {
           value={firstName}
           onChange={e => setFirstName(e.target.value)}
         />
-        <p>Last Name</p>
+        <p>Last Name:</p>
         <input
           placeholder="Last Name"
           type="text"
           value={lastName}
           onChange={e => setLastName(e.target.value)}
         />
-        <p>Email</p>
+        <p>Email:</p>
         <input
           placeholder="Email"
           type="text"
           value={email}
           onChange={e => setEmail(e.target.value)}
         />
-        <p>Phone Number</p>
+        <p>Phone Number:</p>
         <input
           placeholder="Phone Number"
           type="text"
           value={phoneNumber}
           onChange={e => setPhoneNumber(e.target.value)}
         />
-        <p>Description</p>
+        <p>Description:</p>
         <textarea
           placeholder="please enter a description for your appointment"
           type="text"

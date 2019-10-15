@@ -4,6 +4,7 @@ import Nav from './Nav'
 import Excavator from '../images/hdExcavator.jpg'
 import Dad from '../images/Dad-profile-pic.jpeg'
 import Bro from '../images/bro-photo.jpg'
+import Footer from './Footer'
 
 const About = () => {
   return (
@@ -23,7 +24,7 @@ const About = () => {
               <p>
                 Ricky Ortiz has been in the site developer and general
                 contractor for over 25 years. Originally owning a bus business
-                in New York City, he moved to florida and began his career as a
+                in New York City, he moved to Florida and began his career as a
                 General Contractor satisfying hundreds of clients with his
                 ability to deliver quick and efficient results
               </p>
@@ -41,6 +42,7 @@ const About = () => {
           </article>
         </main>
       </section>
+      <Footer />
     </div>
   )
 }
