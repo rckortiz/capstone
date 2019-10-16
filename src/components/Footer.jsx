@@ -22,7 +22,7 @@ class Footer extends Component {
                 {' '}
                 <img src={Plumbing} />
                 <br />
-                Plumbing
+                Plumbing Services
               </li>
               <li>
                 <img src={Septic} />

@@ -52,7 +52,7 @@ body {
 
   width: 5rem;
 
-  height: 23rem;
+  height: 100%;
   font-size: 0.7rem;
   top: -10px;
   bottom: 0.6rem;
@@ -167,6 +167,10 @@ body {
   border-radius: 3rem;
 }
 
+.about-bro {
+  width: 100%;
+}
+
 .about-desc span {
   font-weight: bold;
 }
@@ -207,6 +211,10 @@ img.mobile-hide {
   background-color: rgba(9, 17, 16, 0.6);
   color: white;
   display: block;
+}
+
+.firstFooter ul {
+  list-style-type: none;
 }
 
 .firstFooter img {
@@ -315,7 +323,6 @@ img.mobile-hide {
     position: relative;
     justify-content: space-between;
     left: 10rem;
-
     width: 90%;
     right: 2rem;
     height: 40rem;
@@ -360,13 +367,25 @@ img.mobile-hide {
   .phoneNumber {
     position: relative;
     font-size: 1rem;
+    /* margin-top: 0rem;
+    padding-top: 0rem;
+    height: 0.2rem; */
   }
   .phoneNumber h1 {
-    margin-bottom: 0rem;
+    position: relative;
+    top: 1rem;
+    /* margin-top: 0rem; */
+    /* margin-bottom: 0rem;
+    margin-top: 0rem;
+    position: relative;
+    top: 0.5rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem; */
   }
 
   .description-box-bg {
-    height: 12rem;
+    /* height: 12rem; */
+    height: 12.5rem;
     width: 100%;
   }
 
@@ -393,6 +412,7 @@ img.mobile-hide {
     position: relative;
     font-size: 1rem;
     z-index: 1;
+    /* height: 100%; */
   }
 
   .react-map {
@@ -400,7 +420,7 @@ img.mobile-hide {
     position: relative;
     top: 10rem;
     width: 100%;
-    height: 70%;
+    height: 20rem;
 
     align-items: center;
   }
@@ -441,19 +461,15 @@ img.mobile-hide {
   .firstFooter {
     display: flex;
     justify-content: space-between;
-
     height: 20rem;
     width: 100%;
   }
 
   .firstFooter p {
     position: relative;
-
     left: 30rem;
-
-    font-size: 1.5rem;
-
-    text-align: center;
+    font-size: 1.56rem;
+    /* text-align: center; */
     font-weight: bold;
     text-decoration: underline;
   }
@@ -503,6 +519,36 @@ img.mobile-hide {
     top: 2rem;
     right: 8rem;
   }
+
+  .client-container {
+    position: relative;
+    display: flex;
+    background-color: rgba(9, 17, 16, 0.6);
+    width: 100%;
+    color: white;
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  .client-container caption {
+    position: relative;
+    padding: 1rem;
+  }
+
+  table,
+  caption,
+  th,
+  tr,
+  td {
+    border: 1px solid white;
+  }
+
+  /* .client-header-row {
+    padding: 2rem;
+  } */
+  /* .client-header-row td {
+    padding: 1rem;
+  } */
 }
 
 .body {
@@ -514,5 +560,9 @@ img.mobile-hide {
 }
 
 .contact-body {
+  display: flex;
+}
+
+.client-body {
   display: flex;
 }

@@ -27,7 +27,7 @@ const MyForm2 = () => {
           addClient()
         }}
       >
-        <h1>Schedule your appointment today!</h1>
+        <h1>Contact us to schedule an appointment!</h1>
         <p>First Name:</p>
 
         <input

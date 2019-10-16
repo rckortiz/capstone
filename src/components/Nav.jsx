@@ -19,6 +19,9 @@ class Nav extends Component {
             <li>
               <Link to="/Contact">Contact Us</Link>
             </li>
+            <li>
+              <Link to="/Clients">Clients</Link>
+            </li>
           </ul>
           <div className="phoneNumber">
             <h1>Call us at: </h1>
