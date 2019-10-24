@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { Redirect } from 'react-router-dom'
 import axios from 'axios'
 
 const MyForm2 = () => {
@@ -7,8 +8,10 @@ const MyForm2 = () => {
   const [email, setEmail] = useState('')
   const [phoneNumber, setPhoneNumber] = useState('')
   const [description, setDescription] = useState('')
+  const [redirect, setRedirect] = useState(false)
 
-  const addClient = async () => {
+  const addClient = async e => {
+    e.preventDefault()
     const resp = await axios.post('https://localhost:5001/api/ClientTable', {
       firstName,
       lastName,
@@ -17,16 +20,13 @@ const MyForm2 = () => {
       description
     })
     console.log(resp.data)
+    setRedirect(true)
   }
 
   return (
     <div>
-      <form
-        onSubmit={e => {
-          e.preventDefault()
-          addClient()
-        }}
-      >
+      {redirect ? <Redirect to="/Clients" /> : null}
+      <form onSubmit={addClient}>
         <h1>Contact us to schedule an appointment!</h1>
         <p>First Name:</p>
 

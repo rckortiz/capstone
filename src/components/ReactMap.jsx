@@ -5,7 +5,7 @@ import Marker from 'react-map-gl'
 class ReactMap extends Component {
   state = {
     viewport: {
-      width: 145,
+      width: 140,
       height: 250,
       latitude: 26.651114,
       longitude: -81.107549,

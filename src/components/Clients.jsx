@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Header from './Header'
 import Nav from './Nav'
 import Axios from 'axios'
+import Footer from './Footer'
 
 const Clients = () => {
   const [displayClients, setDisplayClients] = useState([])
@@ -49,6 +50,7 @@ const Clients = () => {
           </table>
         </main>
       </section>
+      <Footer />
     </div>
   )
 }

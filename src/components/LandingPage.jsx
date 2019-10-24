@@ -7,7 +7,6 @@ import SkidSteer from '../images/skid-steer.jpg'
 import Header from './Header'
 import Nav from './Nav'
 import Footer from './Footer'
-import Footer2 from './Footer-2'
 
 const LandingPage = () => {
   return (
